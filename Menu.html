@@ -113,9 +113,22 @@
         <!-- Form -->
         <form>
           <div class="mb-4">
-            <label for="staff_name" class="block text-sm font-medium text-gray-300">Staff Name</label>
+            <label for="staff_name" class="block text-sm font-medium text-gray-300">First Name</label>
+            <input type="text" id="first_name" name="first_name"
+            class="mt-1 block w-full py-2 px-3 border border-gray-700 bg-gray-900 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-gray-100">
+              <label for="staff_name" class="block text-sm font-medium text-gray-300">Middle Name</label>
+              <input type="text" id="middle_name" name="middle_name"
+              class="mt-1 block w-full py-2 px-3 border border-gray-700 bg-gray-900 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-gray-100">
+              <label for="last_name" class="block text-sm font-medium text-gray-300">Staff Name</label>
             <input type="text" id="staff_name" name="staff_name"
-              class="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-700 rounded-md bg-gray-900 text-gray-100">
+            class="mt-1 block w-full py-2 px-3 border border-gray-700 bg-gray-900 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-gray-100">
+            <label for="staff_name" class="block text-sm font-medium text-gray-300">Email id</label>
+            <input type="text" id="email_id" name="email_id"
+            class="mt-1 block w-full py-2 px-3 border border-gray-700 bg-gray-900 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-gray-100">
+            <label for="staff_name" class="block text-sm font-medium text-gray-300">Contact Number</label>
+            <input type="contact_number" id="contact_number" name="contact_number"
+            class="mt-1 block w-full py-2 px-3 border border-gray-700 bg-gray-900 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-gray-100">
+          
           </div>
           <div class="mb-4">
             <label for="department" class="block text-sm font-medium text-gray-300">Department</label>
@@ -129,7 +142,7 @@
           </div>
           <div class="mt-4">
             <button type="submit"
-              class="w-full bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Submit</button>
+              class="w-auto position absolute bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Submit</button>
           </div>
         </form>
         <!-- End of Form -->
@@ -144,6 +157,17 @@
           <thead class="bg-gray-800">
             <tr>
               <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">
+                First Name</th>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">
+                  Middle Name</th>
+                  <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">
+                    Last Name</th>
+                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">
+                      Email id</th>
+                      <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">
+                        Contact No.</th>
+                        
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">
                 Staff Name</th>
               <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">
                 Department</th>
@@ -155,6 +179,11 @@
             <!-- Sample Data -->
             <tr>
               <td class="px-6 py-4 whitespace-nowrap">Sanskar</td>
+              <td class="px-6 py-4 whitespace-nowrap">Vivek</td>
+              <td class="px-6 py-4 whitespace-nowrap">Sharma</td>
+              <td class="px-6 py-4 whitespace-nowrap">sanskarsharmajio@gmail.com</td>
+              <td class="px-6 py-4 whitespace-nowrap">123456789</td>
+              <td class="px-6 py-4 whitespace-nowrap">Sanskar Sharma</td>
               <td class="px-6 py-4 whitespace-nowrap">Engineering</td>
               <td class="px-6 py-4 whitespace-nowrap">
                 <button class="text-blue-400 hover:text-blue-600">Edit</button>
@@ -162,7 +191,12 @@
               </td>
             </tr>
             <tr>
-              <td class="px-6 py-4 whitespace-nowrap">Shubham</td>
+              <td class="px-6 py-4 whitespace-nowrap">Avc</td>
+              <td class="px-6 py-4 whitespace-nowrap">Xyz</td>
+              <td class="px-6 py-4 whitespace-nowrap">Abc</td>
+              <td class="px-6 py-4 whitespace-nowrap">avcabcjio@gmail.com</td>
+              <td class="px-6 py-4 whitespace-nowrap">987654321</td>
+              <td class="px-6 py-4 whitespace-nowrap">Avc Abc</td>
               <td class="px-6 py-4 whitespace-nowrap">Marketing</td>
               <td class="px-6 py-4 whitespace-nowrap">
                 <button class="text-blue-400 hover:text-blue-600">Edit</button>
